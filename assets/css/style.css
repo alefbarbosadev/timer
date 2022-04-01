@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-dark: rgb(5, 41, 49);
+    
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: 'Open sans', sans-serif ;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 138px auto;
+    background: #fff;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 8px 8px 10px 9px rgba(255, 255, 255, 0.116), 0px 3px 1px -2px rgba(255, 255, 255, 0.151), 0px 1px 5px 0px rgba(255, 255, 255, 0.082);
+};
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-dark);
+}
+
+form button:active {
+    background:red;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.3em;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bungee', sans-serif ;
+    font-size: 3em;
+    
+}
+.relogio {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.buttons {
+    text-align: center;
+    font-family: 'Open sans', sans-serif ;
+    
+}
+
+.pausado {
+    color: red;
+}
+
+.iniciar {
+    background-color: #000000;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: 3px solid #575656;
+    
+}
+
+.pausar {
+    background-color: #000000;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: 3px solid #575656;
+}
+
+.zerar {
+    background-color: #000000;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    border-bottom: 4px solid #575656;
+}
+
+.zerar:focus {
+    border-color: rgb(255, 0, 0);
+}
+.iniciar:focus {
+    border-color: rgb(0, 255, 42);
+}
+.pausar:focus {
+    border-color: rgb(26, 142, 250);
+}
